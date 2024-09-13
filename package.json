@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.11"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "swiper": "^11.1.14"
+  }
+}
