@@ -1,0 +1,35 @@
+@font-face {
+    font-family: Bree_Bold;
+    src: url(/fonts/Bree-Bold.woff);
+}
+
+.font-bree_Bold {
+    font-family: Bree_Bold;
+}
+
+@font-face {
+    font-family: Bree_Regular;
+    src: url(/fonts/Bree-Regular.woff);
+}
+
+.font-bree_Regular {
+    font-family: Bree_Regular;
+}
+
+@font-face {
+    font-family: Clanpro_news;
+    src: url(/fonts/clanpro-news.woff);
+}
+
+.font-Clanpro_news {
+    font-family: Clanpro_news;
+}
+
+@font-face {
+    font-family: Helvetic;
+    src: url(/fonts/Helvetic.woff);
+}
+
+.font-Helvetic {
+    font-family: Helvetic;
+}
