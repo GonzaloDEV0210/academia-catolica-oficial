@@ -25,8 +25,9 @@ module.exports = {
         'helvetic': ['helvetic', 'arial'],
       },
       screens: {
-        'celular': '320px',
-        'eg': '1600px',
+        '1260px': '1260px',
+        '940px': '940px',
+        '540px': '540px',
       },
       padding: {
         '5%': '8%',
