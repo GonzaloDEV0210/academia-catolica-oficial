@@ -566,11 +566,6 @@ video {
   position: relative;
 }
 
-.inset-x-0 {
-  left: 0px;
-  right: 0px;
-}
-
 .bottom-16 {
   bottom: 4rem;
 }
@@ -603,10 +598,6 @@ video {
   top: 1.25rem;
 }
 
-.top-\[-100px\] {
-  top: -100px;
-}
-
 .z-20 {
   z-index: 20;
 }
@@ -617,10 +608,6 @@ video {
 
 .z-50 {
   z-index: 50;
-}
-
-.mb-8 {
-  margin-bottom: 2rem;
 }
 
 .mt-10 {
@@ -643,10 +630,6 @@ video {
   height: 100vh;
 }
 
-.h-0 {
-  height: 0px;
-}
-
 .w-7 {
   width: 1.75rem;
 }
@@ -657,15 +640,6 @@ video {
 
 .w-screen {
   width: 100vw;
-}
-
-.-translate-y-full {
-  --tw-translate-y: -100%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.transform {
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .flex-col {
@@ -849,32 +823,8 @@ video {
   transition-duration: 150ms;
 }
 
-.transition-all {
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
-.transition-transform {
-  transition-property: transform;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
 .duration-500 {
   transition-duration: 500ms;
-}
-
-.duration-700 {
-  transition-duration: 700ms;
-}
-
-.duration-300 {
-  transition-duration: 300ms;
-}
-
-.ease-in-out {
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hover\:cursor-pointer:hover {
@@ -920,12 +870,16 @@ video {
     top: 0px;
   }
 
-  .\33 20px\:-mt-36 {
-    margin-top: -9rem;
+  .\33 20px\:mt-36 {
+    margin-top: 9rem;
   }
 
-  .\33 20px\:mb-32 {
-    margin-bottom: 8rem;
+  .\33 20px\:mt-12 {
+    margin-top: 3rem;
+  }
+
+  .\33 20px\:mt-10 {
+    margin-top: 2.5rem;
   }
 
   .\33 20px\:inline-block {
@@ -936,8 +890,8 @@ video {
     display: none;
   }
 
-  .\33 20px\:h-850px {
-    height: 850px;
+  .\33 20px\:h-650px {
+    height: 550px;
   }
 
   .\33 20px\:w-16 {

@@ -11,3 +11,14 @@ icono_cerrar.addEventListener('click', ()=>{
     nav_movil.classList.remove('top-0');
     nav_movil.classList.add('bottom-full')
 });
+
+/* Altura del slider */
+const sliders = document.getElementById('sliders');
+const alto_slider = window.innerHeight;
+document.addEventListener('DOMContentLoaded', ()=>{
+    if (alto_slider < 824) {
+        sliders.classList.remove('1360px:h-screen');
+        sliders.classList.add('1360px:h-823px')
+    }
+    console.log(alto_slider);
+});
