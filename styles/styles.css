@@ -987,43 +987,13 @@ video {
     margin-top: 0px;
   }
 
-  .\39 40px\:inline-block {
-    display: inline-block;
-  }
-
-  .\39 40px\:flex {
-    display: flex;
-  }
-
-  .\39 40px\:hidden {
-    display: none;
-  }
-
   .\39 40px\:h-723px {
     height: 723px;
-  }
-
-  .\39 40px\:w-16 {
-    width: 4rem;
-  }
-
-  .\39 40px\:bg-transparent {
-    background-color: transparent;
-  }
-
-  .\39 40px\:px-14 {
-    padding-left: 3.5rem;
-    padding-right: 3.5rem;
   }
 
   .\39 40px\:px-25\% {
     padding-left: 30%;
     padding-right: 30%;
-  }
-
-  .\39 40px\:py-5 {
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
   }
 
   .\39 40px\:text-4xl {
