@@ -12,6 +12,7 @@ module.exports = {
         'azul_catolica': '#1B5CFF',
         'amarillo_catolica': '#F4DA40',
         'verde_catolica': '#36A2BC',
+        'gris_catolica_letra': '#afafaf'
       },
       borderColor: {
         'azul_catolica': '#1B5CFF',
@@ -40,6 +41,9 @@ module.exports = {
         '550px': '550px',
         '823px': '823px',
         '723px': '723px'
+      },
+      fontSize: {
+        '15px': '15px',
       }
     },
   },
