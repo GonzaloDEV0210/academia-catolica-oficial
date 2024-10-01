@@ -47,8 +47,8 @@
                 </div>
             </div>
         </div>
-        <div class="fixed top-5 320px:top-0 820px:py-5 320px:py-3 left-0 z-30 w-full flex items-center justify-between px-24 1260px:px-24 820px:px-14 320px:px-4 820px:bg-transparent 320px:bg-white">
-            <img class="1360px:w-20 820px:w-16 820px:inline-block 320px:hidden" src="/icons/LOGOCLC-azul.png" alt="Logo de la Acadeémia La Católica">
+        <div id="nav_cabecera" class="fixed top-5 320px:top-0 820px:py-5 320px:py-3 left-0 z-30 w-full flex items-center justify-between px-24 1260px:px-24 820px:px-14 320px:px-4 820px:bg-transparent 320px:bg-white duration-300"> <!-- 820px:bg-transparent -->
+            <img class="1360px:w-20 820px:w-16 820px:inline-block 320px:hidden" src="/icons/ICONO-LOGO.png" alt="Logo de la Acadeémia La Católica">
             <img class="820px:hidden 320px:inline-block 320px:w-16" src="/icons/ICONO-LOGO.png" alt="Icono de la Academia Católica">
             <img id="barra_menu" class="820px:hidden 320px:w-8" src="/icons/menu.png" alt="Icono de la barra del menú">
             <nav class="320px:hidden 820px:inline-block">
@@ -57,19 +57,19 @@
                     <li class="hidden">
                         <img src="/icons/equis.png" alt="">
                     </li>
-                    <a class="font-bree_regular text-white 940px:text-base hover:bg-white hover:text-black duration-500 px-4 py-1 rounded-md" href="#">
+                    <a id="opcion_nav0" class="font-bree_regular text-white 940px:text-base hover:bg-white hover:text-black duration-500 px-4 py-1 rounded-md" href="#">
                         <li class="">Inicio</li>
                     </a>
-                    <a class="font-bree_regular text-white 940px:text-base hover:bg-white hover:text-black duration-500 px-4 py-1 rounded-md" href="#">
+                    <a id="opcion_nav1" class="font-bree_regular text-white 940px:text-base hover:bg-white hover:text-black duration-500 px-4 py-1 rounded-md" href="#">
                         <li class="">Nosotros</li>
                     </a>
-                    <a class="font-bree_regular text-white 940px:text-base hover:bg-white hover:text-black duration-500 px-4 py-1 rounded-md" href="#">
+                    <a id="opcion_nav2" class="font-bree_regular text-white 940px:text-base hover:bg-white hover:text-black duration-500 px-4 py-1 rounded-md" href="#">
                         <li class="">Noticias</li>
                     </a>
-                    <a class="font-bree_regular text-white 940px:text-base hover:bg-white hover:text-black duration-500 px-4 py-1 rounded-md" href="#">
+                    <a id="opcion_nav3" class="font-bree_regular text-white 940px:text-base hover:bg-white hover:text-black duration-500 px-4 py-1 rounded-md" href="#">
                         <li class="">Talleres</li>
                     </a>
-                    <a class="font-bree_regular text-white 940px:text-base hover:bg-white hover:text-black duration-500 px-4 py-1 rounded-md" href="#">
+                    <a id="opcion_nav4" class="font-bree_regular text-white 940px:text-base hover:bg-white hover:text-black duration-500 px-4 py-1 rounded-md" href="#">
                         <li class="">Contáctanos</li>
                     </a>
                 </ul>
@@ -110,36 +110,38 @@
     </header>
 
     <main>
-        <section id="nosotros" class="320px:my-10 320px:mx-5">
-            <h2 class="320px:text-3xl 320px:font-helvetic 320px:text-azul_catolica 320px:text-center 320px:mb-3">Nosotros</h2>
-            <p class="320px:text-gris_catolica_letra 320px:font-bree_regular 320px:text-center 320px:text-15px">¡Bienvenido a nuestra academia La Católica! Ofrecemos clases de natación, teatro y ballet en un entorno inspirador y lleno de energía. Fomentamos el desarrollo personal y artístico de nuestros estudiantes, creando una comunidad apasionada que celebra el talento y la creatividad. Únete y descubre un lugar donde cada clase es una oportunidad para brillar. ¡Tu viaje comienza aquí!</p>
-            <div class="320px:my-5">
-                <h3 class="320px:font-helvetic 320px:text-azul_catolica 320px:mb-3 320px:text-lg">Nuestros Docentes</h3>
-                <p class="320px:font-bree_regular 320px:text-gris_catolica_letra 320px:text-sm 320px:mb-6">Conoce a nuestro equipo de profesores, apasionados expertos en natación, teatro y ballet. Su dedicación inspira a cada estudiante a explorar y desarrollar su talento. ¡Prepárate para un viaje artístico emocionante!</p>
-                <div class="320px:flex 320px:flex-wrap 320px:gap-8 320px:justify-center">
+        <section id="nosotros" class="320px:my-10 1100px:my-16 320px:mx-5">
+            <div>
+                <h2 class="320px:text-3xl 1100px:text-4xl 1400px:text-5xl 320px:font-bree_bold 320px:text-azul_catolica 320px:text-center 320px:mb-3">NOSOTROS</h2>
+                <p class="320px:text-gris_catolica_letra 320px:font-bree_regular 320px:text-center 320px:text-15px 440px:w-96 540px:w-500px 700px:w-600px 440px:mx-auto 1400px:w-1200px 1400px:text-base">¡Bienvenido a nuestra academia La Católica! Ofrecemos clases de natación, teatro y ballet en un entorno inspirador y lleno de energía. Fomentamos el desarrollo personal y artístico de nuestros estudiantes, creando una comunidad apasionada que celebra el talento y la creatividad. Únete y descubre un lugar donde cada clase es una oportunidad para brillar. ¡Tu viaje comienza aquí!</p>
+            </div>
+            <div class="320px:my-5 1100px:my-10 440px:w-96 440px:mx-auto 540px:w-500px 700px:w-600px 900px:w-850px 1100px:w-1000px 1400px:w-1200px 1500px:w-1400px 1400px:mt-20">
+                <h3 class="320px:font-bree_bold 320px:text-azul_catolica 320px:mb-3 320px:text-xl 1100px:text-2xl 1400px:text-4xl 1400px:text-center">NUESTROS DOCENTES</h3>
+                <p class="320px:font-bree_regular 320px:text-gris_catolica_letra 320px:text-sm 320px:mb-6 1400px:text-base">Conoce a nuestro equipo de profesores, apasionados expertos en natación, teatro y ballet. Su dedicación inspira a cada estudiante a explorar y desarrollar su talento. ¡Prepárate para un viaje artístico emocionante!</p>
+                <div class="320px:flex 320px:flex-wrap 320px:gap-8 1100px:gap-20 1400px:gap-32 320px:justify-center 1400px:mt-10 1500px:mt-14">
                     <div class="">
-                        <div class="320px:w-32 320px:h-32 320px:m-auto 320px:mb-3">
+                        <div class="320px:w-32 320px:h-32 320px:m-auto 320px:mb-3 1400px:w-48 1400px:h-48">
                             <img class="320px:w-full 320px:h-full 320px:object-cover 320px:rounded-full" src="/images/Alexia.jpg" alt="Fotografia del docente de Natación">
                         </div>
-                        <h4 class="320px:font-bree_bold 320px:text-center 320px:text-azul_catolica 320px:text-lg">Alexia Fernández</h4>
-                        <h4 class="320px:text-amarillo_catolica 320px:font-bree_bold 320px:text-center 320px:text-sm 320px:mb-2">Profesora de Natación</h4>
-                        <p class="320px:font-bree_regular 320px:text-gris_catolica_letra 320px:text-sm 320px:w-64 320px:text-center">Ella es Alexia, maestra de natación con amplia experiencia. Su paciencia y enfoque personalizado crean un ambiente seguro que ayuda a los estudiantes a ganar confianza en el agua.</p>
+                        <h4 class="320px:font-bree_bold 320px:text-center 320px:text-azul_catolica 320px:text-lg 1400px:text-xl">Alexia Fernández</h4>
+                        <h4 class="320px:text-verde_catolica 320px:font-bree_bold 320px:text-center 320px:text-sm 320px:mb-2 1400px:text-lg">Profesora de Natación</h4>
+                        <p class="320px:font-bree_regular 320px:text-gris_catolica_letra 320px:text-sm 320px:w-64 1400px:w-80 320px:text-center 1400px:text-base">Ella es Alexia, maestra de natación con amplia experiencia. Su paciencia y enfoque personalizado crean un ambiente seguro que ayuda a los estudiantes a ganar confianza en el agua.</p>
                     </div>
                     <div class="">
-                        <div class="320px:w-32 320px:h-32 320px:m-auto 320px:mb-3">
+                        <div class="320px:w-32 320px:h-32 320px:m-auto 320px:mb-3 1400px:w-48 1400px:h-48">
                             <img class="320px:w-full 320px:h-full 320px:object-cover 320px:rounded-full" src="/images/Sofia.jpg" alt="Fotografia del docente de Ballet">
                         </div>
-                        <h4 class="320px:font-bree_bold 320px:text-center 320px:text-azul_catolica 320px:text-lg">Sofía Quispe</h4>
-                        <h4 class="320px:text-amarillo_catolica 320px:font-bree_bold 320px:text-center 320px:text-sm 320px:mb-2">Profesora de Ballet</h4>
-                        <p class="320px:font-bree_regular 320px:text-gris_catolica_letra 320px:text-sm 320px:w-64 320px:text-center">Conoce a Sofía, profesora de ballet apasionada. Su técnica inspira a los alumnos a desarrollar gracia y disciplina en un entorno motivador y acogedor.</p>
+                        <h4 class="320px:font-bree_bold 320px:text-center 320px:text-azul_catolica 320px:text-lg 1400px:text-xl">Sofía Quispe</h4>
+                        <h4 class="320px:text-verde_catolica 320px:font-bree_bold 320px:text-center 320px:text-sm 320px:mb-2 1400px:text-lg">Profesora de Ballet</h4>
+                        <p class="320px:font-bree_regular 320px:text-gris_catolica_letra 320px:text-sm 320px:w-64 1400px:w-80 320px:text-center 1400px:text-base">Conoce a Sofía, profesora de ballet apasionada. Su técnica inspira a los alumnos a desarrollar gracia y disciplina en un entorno motivador y acogedor.</p>
                     </div>
                     <div class="">
-                        <div class="320px:w-32 320px:h-32 320px:m-auto 320px:mb-3">
+                        <div class="320px:w-32 320px:h-32 320px:m-auto 320px:mb-3 1400px:w-48 1400px:h-48">
                             <img class="320px:w-full 320px:h-full 320px:object-cover 320px:rounded-full" src="/images/Martin.jpg" alt="Fotografia del docente de Teatro">
                         </div>
-                        <h4 class="320px:font-bree_bold 320px:text-center 320px:text-azul_catolica 320px:text-lg">Martín Flores</h4>
-                        <h4 class="320px:text-amarillo_catolica 320px:font-bree_bold 320px:text-center 320px:text-sm 320px:mb-2">Profesor de Teatro</h4>
-                        <p class="320px:font-bree_regular 320px:text-gris_catolica_letra 320px:text-sm 320px:w-64 320px:text-center">Te presentamos a Martín, profesor de teatro lleno de energía. Fomenta la creatividad y la expresión, creando un espacio seguro donde los estudiantes pueden experimentar y crecer.</p>
+                        <h4 class="320px:font-bree_bold 320px:text-center 320px:text-azul_catolica 320px:text-lg 1400px:text-xl">Martín Flores</h4>
+                        <h4 class="320px:text-verde_catolica 320px:font-bree_bold 320px:text-center 320px:text-sm 320px:mb-2 1400px:text-lg">Profesor de Teatro</h4>
+                        <p class="320px:font-bree_regular 320px:text-gris_catolica_letra 320px:text-sm 320px:w-64 1400px:w-80 320px:text-center 1400px:text-base">Te presentamos a Martín, profesor de teatro lleno de energía. Fomenta la creatividad y la expresión, creando un espacio seguro donde los estudiantes pueden experimentar y crecer.</p>
                     </div>
                 </div>
             </div>

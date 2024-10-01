@@ -12,7 +12,7 @@ module.exports = {
         'azul_catolica': '#1B5CFF',
         'amarillo_catolica': '#F4DA40',
         'verde_catolica': '#36A2BC',
-        'gris_catolica_letra': '#afafaf'
+        'gris_catolica_letra': '#8b8b8b'
       },
       borderColor: {
         'azul_catolica': '#1B5CFF',
@@ -28,10 +28,16 @@ module.exports = {
       screens: {
         '1260px': '1260px',
         '1360px': '1360px',
+        '1100px': '1100px',
         '940px': '940px',
+        '900px': '900px',
         '540px': '540px',
         '320px': '320px',
-        '820px': '820px'
+        '820px': '820px',
+        '440px': '440px',
+        '700px': '700px',
+        '1400px': '1400px',
+        '1500px': '1500px'
       },
       padding: {
         '5%': '8%',
@@ -42,6 +48,14 @@ module.exports = {
         '823px': '823px',
         '723px': '723px'
       },
+      width: {
+        '600px': '600px',
+        '500px': '500px',
+        '850px': '850px',
+        '1000px': '1000px',
+        '1200px': '1200px',
+        '1400px': '1400px'
+      },
       fontSize: {
         '15px': '15px',
       }
@@ -49,4 +63,3 @@ module.exports = {
   },
   plugins: [],
 }
-
