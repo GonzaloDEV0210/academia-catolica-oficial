@@ -35,7 +35,6 @@ document.addEventListener('scroll', ()=>{
     if (window.scrollY === 0) {
         nav_cabecera.classList.add('820px:bg-transparent');
         nav_cabecera.classList.remove('820px:bg-white');
-        nav_cabecera.classList.remove('320px:shadow-lg')
         opcion_nav0.classList.add('text-white');
         opcion_nav1.classList.add('text-white');
         opcion_nav2.classList.add('text-white');
@@ -49,7 +48,6 @@ document.addEventListener('scroll', ()=>{
     } else {
         nav_cabecera.classList.remove('820px:bg-transparent');
         nav_cabecera.classList.add('820px:bg-white');
-        nav_cabecera.classList.add('320px:shadow-lg')
         opcion_nav0.classList.remove('text-white');
         opcion_nav1.classList.remove('text-white');
         opcion_nav2.classList.remove('text-white');
