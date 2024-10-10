@@ -1,3 +1,5 @@
+const { Pagination } = require("swiper/modules");
+
 const swiper = new Swiper('#sliders', {
   loop: true,
   autoplay: {
@@ -22,12 +24,38 @@ breakpoints: {
   650: {
     slidesPerView: 2,
   },
-  900: {
+  850: {
     slidesPerView: 3,
     spaceBetween: 2
   },
   1100: {
     slidesPerView: 3
+  },
+  1260: {
+    slidesPerView: 4
   }
 }
+});
+
+const swiper_noticias = new Swiper('#slider_noticias', {
+  loop: true,
+  autoplay: {
+    delay: 5000,
+  },
+  navigation: {
+    nextEl: '.noticias_next',
+    prevEl: '.noticias_prev',
+  },
+  spaceBetween: 20,
+  breakpoints: {
+    600: {
+      slidesPerView: 2,
+    },
+    900: {
+      slidesPerView: 3,
+    },
+    1400: {
+      slidesPerView: 4,
+    },
+  },
 });

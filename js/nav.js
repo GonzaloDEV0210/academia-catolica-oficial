@@ -60,3 +60,20 @@ document.addEventListener('scroll', ()=>{
         opcion_nav4.classList.add('text-black');
     }
 });
+
+/* Funcionamiento de clicks en los item */
+const inicio_movil = document.getElementById('inicio_movil');
+const nosotros_movil = document.getElementById('nosotros_movil');
+const noticias_movil = document.getElementById('noticias_movil');
+const tallere_movil = document.getElementById('tallere_movil');
+const contactanos_movil = document.getElementById('contactanos_movil');
+
+const items_nav = [inicio_movil, nosotros_movil, noticias_movil, tallere_movil, contactanos_movil];
+
+
+items_nav.forEach(item => {
+    item.addEventListener('click', ()=>{
+        nav_movil.classList.remove('top-0');
+        nav_movil.classList.add('bottom-full')
+    })
+});
