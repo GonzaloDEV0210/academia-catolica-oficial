@@ -1,5 +1,3 @@
-const { Pagination } = require("swiper/modules");
-
 const swiper = new Swiper('#sliders', {
   loop: true,
   autoplay: {
