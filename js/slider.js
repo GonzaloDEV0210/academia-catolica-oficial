@@ -37,6 +37,7 @@ breakpoints: {
 
 const swiper_noticias = new Swiper('#slider_noticias', {
   loop: true,
+  speed: 1000,
   autoplay: {
     delay: 5000,
   },

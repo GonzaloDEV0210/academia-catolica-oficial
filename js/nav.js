@@ -30,6 +30,7 @@ const opcion_nav1 = document.getElementById('opcion_nav1');
 const opcion_nav2 = document.getElementById('opcion_nav2');
 const opcion_nav3 = document.getElementById('opcion_nav3');
 const opcion_nav4 = document.getElementById('opcion_nav4');
+const opcion_nav5 = document.getElementById('opcion_nav5');
 
 document.addEventListener('scroll', ()=>{
     if (window.scrollY === 0) {
@@ -40,11 +41,13 @@ document.addEventListener('scroll', ()=>{
         opcion_nav2.classList.add('text-white');
         opcion_nav3.classList.add('text-white');
         opcion_nav4.classList.add('text-white');
+        opcion_nav5.classList.add('text-white');
         opcion_nav0.classList.remove('text-black');
         opcion_nav1.classList.remove('text-black');
         opcion_nav2.classList.remove('text-black');
         opcion_nav3.classList.remove('text-black');
         opcion_nav4.classList.remove('text-black');
+        opcion_nav5.classList.remove('text-black');
     } else {
         nav_cabecera.classList.remove('820px:bg-transparent');
         nav_cabecera.classList.add('820px:bg-white');
@@ -53,11 +56,13 @@ document.addEventListener('scroll', ()=>{
         opcion_nav2.classList.remove('text-white');
         opcion_nav3.classList.remove('text-white');
         opcion_nav4.classList.remove('text-white');
+        opcion_nav5.classList.remove('text-white');
         opcion_nav0.classList.add('text-black');
         opcion_nav1.classList.add('text-black');
         opcion_nav2.classList.add('text-black');
         opcion_nav3.classList.add('text-black');
         opcion_nav4.classList.add('text-black');
+        opcion_nav5.classList.add('text-black');
     }
 });
 
