@@ -58,3 +58,9 @@ const swiper_noticias = new Swiper('#slider_noticias', {
     },
   },
 });
+
+const swiper_gal_nat = new Swiper('#gal_natacion', {
+  loop: true,
+  slidesPerView: 1,
+  slidesPerGroup: 1,
+});
