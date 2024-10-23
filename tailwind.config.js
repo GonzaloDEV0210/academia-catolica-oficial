@@ -7,6 +7,7 @@ module.exports = {
         'azul_catolica': '#1B5CFF',
         'amarillo_catolica': '#F4DA40',
         'verde_catolica': '#36A2BC',
+        'hover_verde_catolica': '#4bb8d3'
       },
       colors: {
         'azul_catolica': '#1B5CFF',

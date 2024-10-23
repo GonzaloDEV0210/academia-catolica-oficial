@@ -61,6 +61,30 @@ const swiper_noticias = new Swiper('#slider_noticias', {
 
 const swiper_gal_nat = new Swiper('#gal_natacion', {
   loop: true,
-  slidesPerView: 1,
-  slidesPerGroup: 1,
+  effect: 'fade',
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
+  speed: 1000
+});
+
+const swiper_gal_ballet = new Swiper('#gal_ballet', {
+  loop: true,
+  effect: 'fade',
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
+  speed: 1000
+});
+
+const swiper_gal_teatro = new Swiper('#gal_teatro', {
+  loop: true,
+  effect: 'fade',
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
+  speed: 1000
 });
