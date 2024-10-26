@@ -11,7 +11,7 @@
 
     <link rel="shortcut icon" href="/icons/favi.png" type="image/x-icon">
 </head>
-<body class="relative">
+<body id="body" class="relative">
     <header id="header" class="relative">
         <div id="sliders" class="swiper 1360px:h-screen 940px:h-723px 320px:h-550px relative">
             <div class="swiper-wrapper">
@@ -63,14 +63,14 @@
                     <a id="opcion_nav1" class="font-bree_regular text-white 940px:text-base hover:bg-white hover:text-black duration-500 px-4 py-1 rounded-md 1600px:text-lg" href="#nosotros">
                         <li class="">Nosotros</li>
                     </a>
+                    <a id="opcion_nav3" class="font-bree_regular text-white 940px:text-base hover:bg-white hover:text-black duration-500 px-4 py-1 rounded-md 1600px:text-lg" href="#talleres_costos">
+                        <li class="">Talleres y Costos</li>
+                    </a>
                     <a id="opcion_nav2" class="font-bree_regular text-white 940px:text-base hover:bg-white hover:text-black duration-500 px-4 py-1 rounded-md 1600px:text-lg" href="#noticias">
                         <li class="">Noticias</li>
                     </a>
                     <a id="opcion_nav5" class="font-bree_regular text-white 940px:text-base hover:bg-white hover:text-black duration-500 px-4 py-1 rounded-md 1600px:text-lg" href="#galeria">
                         <li class="">Galeria</li>
-                    </a>
-                    <a id="opcion_nav3" class="font-bree_regular text-white 940px:text-base hover:bg-white hover:text-black duration-500 px-4 py-1 rounded-md 1600px:text-lg" href="#talleres_costos">
-                        <li class="">Talleres y Costos</li>
                     </a>
                     <a id="opcion_nav4" class="font-bree_regular text-white 940px:text-base hover:bg-white hover:text-black duration-500 px-4 py-1 rounded-md 1600px:text-lg" href="#">
                         <li class="">Contáctanos</li>
@@ -88,14 +88,14 @@
                     <a id="nosotros_movil" class="font-bree_bold text-2xl text-black 940px:text-base hover:bg-white hover:text-black duration-500 px-4 py-1 rounded-md" href="#nosotros">
                         <li class="">Nosotros</li>
                     </a>
+                    <a id="tallere_movil" class="font-bree_bold text-2xl text-black 940px:text-base hover:bg-white hover:text-black duration-500 px-4 py-1 rounded-md" href="#talleres_costos">
+                        <li class="">Talleres y Costos</li>
+                    </a>
                     <a id="noticias_movil" class="font-bree_bold text-2xl text-black 940px:text-base hover:bg-white hover:text-black duration-500 px-4 py-1 rounded-md" href="#noticias">
                         <li class="">Noticias</li>
                     </a>
                     <a id="galeria_movil" class="font-bree_bold text-2xl text-black 940px:text-base hover:bg-white hover:text-black duration-500 px-4 py-1 rounded-md" href="#galeria">
                         <li class="">Galeria</li>
-                    </a>
-                    <a id="tallere_movil" class="font-bree_bold text-2xl text-black 940px:text-base hover:bg-white hover:text-black duration-500 px-4 py-1 rounded-md" href="#talleres_costos">
-                        <li class="">Talleres y Costos</li>
                     </a>
                     <a id="contactanos_movil" class="font-bree_bold text-2xl text-black 940px:text-base hover:bg-white hover:text-black duration-500 px-4 py-1 rounded-md" href="#">
                         <li class="">Contáctanos</li>
@@ -170,6 +170,30 @@
 
                     <div class="swiper-button-prev 440px:ml-14 540px:ml-9 700px:ml-2"></div>
                     <div class="swiper-button-next 440px:mr-14 540px:mr-9 700px:mr-2"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="talleres_costos" class="320px:my-12 900px:w-900px 940px:w-940px 1360px:w-1300px 900px:mx-auto">
+            <h2 class="320px:text-3xl 320px:font-bree_bold 320px:text-azul_catolica 320px:text-center 320px:mb-4 1100px:text-4xl">Talleres y Costos</h2>
+            <div class="320px:flex 320px:flex-wrap 320px:gap-2">
+                <div class="320px:relative 320px:w-72 820px:w-96 320px:h-72 820px:h-80 320px:mx-auto 320px:rounded-lg">
+                    <div id="box_costo_nat" class="320px:absolute 320px:w-full 320px:h-full rounded-lg 320px:bg-black 320px:opacity-70 transition duration-300 hover:bg-azul_catolica hover:cursor-pointer"></div>
+                    <img class="w-full h-full object-cover rounded-lg" src="/images/natacion-slider.jpg" alt="Imagen de natación">
+                    <span id="text_costo_nat" class="320px:absolute 320px:text-white 320px:top-1/2 320px:left-1/2 320px:transform 320px:-translate-x-1/2 320px:-translate-y-1/2 320px:font-helvetic 320px:text-2xl">NATACIÓN</span>
+                    <span class="900px:hidden 320px:absolute 320px:text-white 320px:top-2/3 320px:left-1/2 320px:transform 320px:-translate-x-1/2 320px:-translate-y-1/2 320px:font-helvetic 320px:text-sm">Ver Detalles</span>
+                </div>
+                <div class="320px:relative 320px:w-72 820px:w-96 320px:h-72 820px:h-80 320px:mx-auto 320px:rounded-lg">
+                    <div id="box_costo_tea" class="320px:absolute 320px:w-full 320px:h-full rounded-lg 320px:bg-black 320px:opacity-70 transition duration-300 hover:bg-verde_catolica hover:cursor-pointer"></div>
+                    <img class="w-full h-full object-cover rounded-lg" src="/images/teatro_niños_1.jpg" alt="Imagen de teatro">
+                    <span id="text_costo_tea" class="320px:absolute 320px:text-white 320px:top-1/2 320px:left-1/2 320px:transform 320px:-translate-x-1/2 320px:-translate-y-1/2 320px:font-helvetic 320px:text-2xl">TEATRO</span>
+                    <span class="900px:hidden 320px:absolute 320px:text-white 320px:top-2/3 320px:left-1/2 320px:transform 320px:-translate-x-1/2 320px:-translate-y-1/2 320px:font-helvetic 320px:text-sm">Ver Detalles</span>
+                </div>
+                <div class="320px:relative 320px:w-72 820px:w-96 320px:h-72 820px:h-80 320px:mx-auto 320px:rounded-lg">
+                    <div id="box_costo_bal" class="320px:absolute 320px:w-full 320px:h-full rounded-lg 320px:bg-black 320px:opacity-70 transition duration-300 hover:bg-amarillo_catolica hover:cursor-pointer"></div>
+                    <img class="w-full h-full object-cover rounded-lg" src="/images/ballet-slider.jpg" alt="Imagen de ballet">
+                    <span id="text_costo_bal" class="320px:absolute 320px:text-white 320px:top-1/2 320px:left-1/2 320px:transform 320px:-translate-x-1/2 320px:-translate-y-1/2 320px:font-helvetic 320px:text-2xl">BALLET</span>
+                    <span class="900px:hidden 320px:absolute 320px:text-white 320px:top-2/3 320px:left-1/2 320px:transform 320px:-translate-x-1/2 320px:-translate-y-1/2 320px:font-helvetic 320px:text-sm">Ver Detalles</span>
                 </div>
             </div>
         </section>
@@ -296,7 +320,7 @@
         <section id="galeria" class="320px:my-12 900px:w-900px 1000px:w-1000px 900px:mx-auto">
             <h2 class="320px:text-3xl 320px:font-bree_bold 320px:text-azul_catolica 320px:text-center 320px:mb-4 1100px:text-4xl">Galeria</h2>
             <div class="320px:flex 320px:flex-wrap 320px:gap-5">
-                <div class="320px:relative 320px:w-64 700px:w-80 700px:h-96 320px:h-80 320px:mx-auto 320px:rounded-lg">
+                <div id="button_gal_nat" class="320px:relative 320px:w-64 700px:w-80 700px:h-96 320px:h-80 320px:mx-auto 320px:rounded-lg 320px:hover:cursor-pointer">
                     <div id="gal_natacion" class="swiper 320px:w-full 320px:h-full">
                         <div class="swiper-wrapper">
                             <img class="swiper-slide 320px:w-full 320px:h-full 320px:object-cover 320px:rounded-ee-3xl 320px:rounded-ss-3xl" src="/images/adulto-sonriendo.jpg" alt="imagenes galeria">
@@ -306,7 +330,7 @@
                     </div>
                     <button class="320px:bg-azul_catolica hover:320px:bg-blue-500 hover:cursor-pointer duration-300 320px:absolute 320px:w-full 320px:left-0 320px:bottom-0 320px:z-20 320px:text-white 320px:font-bree_regular 320px:py-1 rounded-ee-3xl">Ver Galeria - Natación</button>
                 </div>
-                <div class="320px:relative 320px:w-64 700px:w-80 700px:h-96 320px:h-80 320px:mx-auto 320px:rounded-lg">
+                <div id="button_gal_tea" class="320px:relative 320px:w-64 700px:w-80 700px:h-96 320px:h-80 320px:mx-auto 320px:rounded-lg 320px:hover:cursor-pointer">
                     <div id="gal_teatro" class="swiper 320px:w-full 320px:h-full">
                         <div class="swiper-wrapper">
                             <img class="swiper-slide 320px:w-full 320px:h-full 320px:object-cover 320px:rounded-ee-3xl 320px:rounded-ss-3xl" src="/images/niño-sonriendo.jpg" alt="imagenes galeria">
@@ -316,7 +340,7 @@
                     </div>
                     <button class="320px:bg-verde_catolica hover:320px:bg-hover_verde_catolica duration-300 320px:absolute 320px:w-full 320px:left-0 320px:bottom-0 320px:z-20 320px:text-white 320px:font-bree_regular 320px:py-1 rounded-ee-3xl">Ver Galeria - Teatro</button>
                 </div>
-                <div class="320px:relative 320px:w-64 700px:w-80 700px:h-96 320px:h-80 320px:mx-auto 320px:rounded-lg">
+                <div id="button_gal_bal" class="320px:relative 320px:w-64 700px:w-80 700px:h-96 320px:h-80 320px:mx-auto 320px:rounded-lg 320px:hover:cursor-pointer">
                     <div id="gal_ballet" class="swiper 320px:w-full 320px:h-full">
                         <div class="swiper-wrapper">
                             <img class="swiper-slide 320px:w-full 320px:h-full 320px:object-cover 320px:rounded-ee-3xl 320px:rounded-ss-3xl" src="/images/ballet-slider.jpg" alt="imagenes galeria">
@@ -329,26 +353,45 @@
             </div>
         </section>
 
-        <section id="talleres_costos" class="320px:my-12 900px:w-900px 940px:w-940px 1360px:w-1300px 900px:mx-auto">
-            <h2 class="320px:text-3xl 320px:font-bree_bold 320px:text-azul_catolica 320px:text-center 320px:mb-4 1100px:text-4xl">Talleres y Costos</h2>
-            <div class="320px:flex 320px:flex-wrap 320px:gap-2">
-                <div class="320px:relative 320px:w-72 820px:w-96 320px:h-72 820px:h-80 320px:mx-auto 320px:rounded-lg">
-                    <div class="320px:absolute 320px:w-full 320px:h-full rounded-lg 320px:bg-black 320px:opacity-70 transition duration-300 hover:bg-azul_catolica hover:cursor-pointer"></div>
-                    <img class="w-full h-full object-cover rounded-lg" src="/images/natacion-slider.jpg" alt="Imagen de natación">
-                    <span class="320px:absolute 320px:text-white 320px:top-1/2 320px:left-1/2 320px:transform 320px:-translate-x-1/2 320px:-translate-y-1/2 320px:font-helvetic 320px:text-2xl">NATACIÓN</span>
-                </div>
-                <div class="320px:relative 320px:w-72 820px:w-96 320px:h-72 820px:h-80 320px:mx-auto 320px:rounded-lg">
-                    <div class="320px:absolute 320px:w-full 320px:h-full rounded-lg 320px:bg-black 320px:opacity-70 transition duration-300 hover:bg-verde_catolica hover:cursor-pointer"></div>
-                    <img class="w-full h-full object-cover rounded-lg" src="/images/teatro_niños_1.jpg" alt="Imagen de teatro">
-                    <span class="320px:absolute 320px:text-white 320px:top-1/2 320px:left-1/2 320px:transform 320px:-translate-x-1/2 320px:-translate-y-1/2 320px:font-helvetic 320px:text-2xl">TEATRO</span>
-                </div>
-                <div class="320px:relative 320px:w-72 820px:w-96 320px:h-72 820px:h-80 320px:mx-auto 320px:rounded-lg">
-                    <div class="320px:absolute 320px:w-full 320px:h-full rounded-lg 320px:bg-black 320px:opacity-70 transition duration-300 hover:bg-amarillo_catolica hover:cursor-pointer"></div>
-                    <img class="w-full h-full object-cover rounded-lg" src="/images/ballet-slider.jpg" alt="Imagen de ballet">
-                    <span class="320px:absolute 320px:text-white 320px:top-1/2 320px:left-1/2 320px:transform 320px:-translate-x-1/2 320px:-translate-y-1/2 320px:font-helvetic 320px:text-2xl">BALLET</span>
-                </div>
-            </div>
-        </section>
+        <div id="nat_modal" class="hidden top-0 left-0 w-full h-full bg-black opacity-95 z-30 overflow-y-auto flex-wrap justify-center gap-2 py-8 pt-16"> <!-- fixed- flex -->
+            <img id="close_gal_nat" class="absolute top-5 right-5 w-9 z-50 cursor-pointer" src="/icons/equis_blanco.png" alt="">
+            <img class="320px:w-60 1260px:w-80 320px:h-80 1260px:h-450px 320px:object-cover 320px:rounded-lg" src="/images/ballet-slider.jpg" alt="">
+            <img class="320px:w-60 1260px:w-80 320px:h-80 1260px:h-450px 320px:object-cover 320px:rounded-lg" src="/images/ballet-slider.jpg" alt="">
+            <img class="320px:w-60 1260px:w-80 320px:h-80 1260px:h-450px 320px:object-cover 320px:rounded-lg" src="/images/ballet-slider.jpg" alt="">
+            <img class="320px:w-60 1260px:w-80 320px:h-80 1260px:h-450px 320px:object-cover 320px:rounded-lg" src="/images/ballet-slider.jpg" alt="">
+            <img class="320px:w-60 1260px:w-80 320px:h-80 1260px:h-450px 320px:object-cover 320px:rounded-lg" src="/images/ballet-slider.jpg" alt="">
+            <img class="320px:w-60 1260px:w-80 320px:h-80 1260px:h-450px 320px:object-cover 320px:rounded-lg" src="/images/ballet-slider.jpg" alt="">
+            <img class="320px:w-60 1260px:w-80 320px:h-80 1260px:h-450px 320px:object-cover 320px:rounded-lg" src="/images/ballet-slider.jpg" alt="">
+            <img class="320px:w-60 1260px:w-80 320px:h-80 1260px:h-450px 320px:object-cover 320px:rounded-lg" src="/images/ballet-slider.jpg" alt="">
+            <img class="320px:w-60 1260px:w-80 320px:h-80 1260px:h-450px 320px:object-cover 320px:rounded-lg" src="/images/ballet-slider.jpg" alt="">
+            <img class="320px:w-60 1260px:w-80 320px:h-80 1260px:h-450px 320px:object-cover 320px:rounded-lg" src="/images/ballet-slider.jpg" alt="">
+        </div>
+        <div id="tea_modal" class="hidden top-0 left-0 w-full h-full bg-black opacity-95 z-30 overflow-y-auto flex-wrap justify-center gap-2 py-8 pt-16">
+            <img id="close_gal_tea" class="absolute top-5 right-5 w-9 z-50 cursor-pointer" src="/icons/equis_blanco.png" alt="">
+            <img class="320px:w-60 1260px:w-80 320px:h-80 1260px:h-450px 320px:object-cover 320px:rounded-lg" src="/images/ballet-slider.jpg" alt="">
+            <img class="320px:w-60 1260px:w-80 320px:h-80 1260px:h-450px 320px:object-cover 320px:rounded-lg" src="/images/ballet-slider.jpg" alt="">
+            <img class="320px:w-60 1260px:w-80 320px:h-80 1260px:h-450px 320px:object-cover 320px:rounded-lg" src="/images/ballet-slider.jpg" alt="">
+            <img class="320px:w-60 1260px:w-80 320px:h-80 1260px:h-450px 320px:object-cover 320px:rounded-lg" src="/images/ballet-slider.jpg" alt="">
+            <img class="320px:w-60 1260px:w-80 320px:h-80 1260px:h-450px 320px:object-cover 320px:rounded-lg" src="/images/ballet-slider.jpg" alt="">
+            <img class="320px:w-60 1260px:w-80 320px:h-80 1260px:h-450px 320px:object-cover 320px:rounded-lg" src="/images/ballet-slider.jpg" alt="">
+            <img class="320px:w-60 1260px:w-80 320px:h-80 1260px:h-450px 320px:object-cover 320px:rounded-lg" src="/images/ballet-slider.jpg" alt="">
+            <img class="320px:w-60 1260px:w-80 320px:h-80 1260px:h-450px 320px:object-cover 320px:rounded-lg" src="/images/ballet-slider.jpg" alt="">
+            <img class="320px:w-60 1260px:w-80 320px:h-80 1260px:h-450px 320px:object-cover 320px:rounded-lg" src="/images/ballet-slider.jpg" alt="">
+            <img class="320px:w-60 1260px:w-80 320px:h-80 1260px:h-450px 320px:object-cover 320px:rounded-lg" src="/images/ballet-slider.jpg" alt="">
+        </div>
+        <div id="bal_modal" class="hidden top-0 left-0 w-full h-full bg-black opacity-95 z-30 overflow-y-auto flex-wrap justify-center gap-2 py-8 pt-16">
+            <img id="close_gal_bal" class="absolute top-5 right-5 w-9 z-50 cursor-pointer" src="/icons/equis_blanco.png" alt="">
+            <img class="320px:w-60 1260px:w-80 320px:h-80 1260px:h-450px 320px:object-cover 320px:rounded-lg" src="/images/ballet-slider.jpg" alt="">
+            <img class="320px:w-60 1260px:w-80 320px:h-80 1260px:h-450px 320px:object-cover 320px:rounded-lg" src="/images/ballet-slider.jpg" alt="">
+            <img class="320px:w-60 1260px:w-80 320px:h-80 1260px:h-450px 320px:object-cover 320px:rounded-lg" src="/images/ballet-slider.jpg" alt="">
+            <img class="320px:w-60 1260px:w-80 320px:h-80 1260px:h-450px 320px:object-cover 320px:rounded-lg" src="/images/ballet-slider.jpg" alt="">
+            <img class="320px:w-60 1260px:w-80 320px:h-80 1260px:h-450px 320px:object-cover 320px:rounded-lg" src="/images/ballet-slider.jpg" alt="">
+            <img class="320px:w-60 1260px:w-80 320px:h-80 1260px:h-450px 320px:object-cover 320px:rounded-lg" src="/images/ballet-slider.jpg" alt="">
+            <img class="320px:w-60 1260px:w-80 320px:h-80 1260px:h-450px 320px:object-cover 320px:rounded-lg" src="/images/ballet-slider.jpg" alt="">
+            <img class="320px:w-60 1260px:w-80 320px:h-80 1260px:h-450px 320px:object-cover 320px:rounded-lg" src="/images/ballet-slider.jpg" alt="">
+            <img class="320px:w-60 1260px:w-80 320px:h-80 1260px:h-450px 320px:object-cover 320px:rounded-lg" src="/images/ballet-slider.jpg" alt="">
+            <img class="320px:w-60 1260px:w-80 320px:h-80 1260px:h-450px 320px:object-cover 320px:rounded-lg" src="/images/ballet-slider.jpg" alt="">
+        </div>
     </main>
     <div class="fixed 320px:w-14 1400px:w-16 320px:right-4 1400px:right-8 1500px:w-20 1400px:bottom-6 320px:bottom-5 320px:z-50">
         <a href="#" target="_blank" rel="noopener noreferrer">
@@ -361,5 +404,7 @@
     <script src="/node_modules/smooth-scroll/dist/smooth-scroll.min.js"></script>
     <script src="js/scroll.js"></script>
     <script src="/js/animated.js"></script>
+    <script src="/js/modal.js"></script>
+    <script src="/js/costos.js"></script>
 </body>
 </html>

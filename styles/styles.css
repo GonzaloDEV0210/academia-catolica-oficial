@@ -642,6 +642,10 @@ video {
   width: 1.75rem;
 }
 
+.w-9 {
+  width: 2.25rem;
+}
+
 .w-full {
   width: 100%;
 }
@@ -655,8 +659,16 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .flex-col {
   flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .items-center {
@@ -691,6 +703,10 @@ video {
   gap: 1.75rem;
 }
 
+.overflow-y-auto {
+  overflow-y: auto;
+}
+
 .rounded-lg {
   border-radius: 0.5rem;
 }
@@ -701,18 +717,6 @@ video {
 
 .rounded-sm {
   border-radius: 0.125rem;
-}
-
-.rounded-ee-lg {
-  border-end-end-radius: 0.5rem;
-}
-
-.rounded-ee-xl {
-  border-end-end-radius: 0.75rem;
-}
-
-.rounded-ee-2xl {
-  border-end-end-radius: 1rem;
 }
 
 .rounded-ee-3xl {
@@ -771,6 +775,15 @@ video {
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.pt-16 {
+  padding-top: 4rem;
 }
 
 .text-center {
@@ -957,6 +970,10 @@ video {
     top: 33.333333%;
   }
 
+  .\33 20px\:top-2\/3 {
+    top: 66.666667%;
+  }
+
   .\33 20px\:z-20 {
     z-index: 20;
   }
@@ -1066,6 +1083,10 @@ video {
     width: 1.25rem;
   }
 
+  .\33 20px\:w-60 {
+    width: 15rem;
+  }
+
   .\33 20px\:w-64 {
     width: 16rem;
   }
@@ -1132,21 +1153,12 @@ video {
     border-radius: 0.5rem;
   }
 
-  .\33 20px\:rounded-b-lg {
-    border-bottom-right-radius: 0.5rem;
-    border-bottom-left-radius: 0.5rem;
-  }
-
   .\33 20px\:rounded-ee-3xl {
     border-end-end-radius: 1.5rem;
   }
 
   .\33 20px\:rounded-ss-3xl {
     border-start-start-radius: 1.5rem;
-  }
-
-  .\33 20px\:rounded-ss-full {
-    border-start-start-radius: 9999px;
   }
 
   .\33 20px\:border {
@@ -1317,6 +1329,10 @@ video {
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
+  .\33 20px\:hover\:cursor-pointer:hover {
+    cursor: pointer;
+  }
+
   .hover\:320px\:bg-blue-500:hover {
     --tw-bg-opacity: 1;
     background-color: rgb(59 130 246 / var(--tw-bg-opacity));
@@ -1448,6 +1464,10 @@ video {
     margin-right: auto;
   }
 
+  .\39 00px\:hidden {
+    display: none;
+  }
+
   .\39 00px\:w-900px {
     width: 900px;
   }
@@ -1553,6 +1573,10 @@ video {
 @media (min-width: 1260px) {
   .\31 260px\:w-6 {
     width: 1.5rem;
+  }
+
+  .\31 260px\:w-80 {
+    width: 20rem;
   }
 
   .\31 260px\:gap-3 {
