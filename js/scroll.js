@@ -22,3 +22,8 @@ let talleres_costos = new SmoothScroll('a[href*="talleres_costos"]', {
     speed: 800,
     offset: 130,
 });
+
+let contacto = new SmoothScroll('a[href*="contacto"]', {
+    speed: 800,
+    offset: 130,
+});
