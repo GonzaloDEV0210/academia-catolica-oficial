@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./*.html", "/js/*.ja"],
+  content: ["./*.html", "./js/*.js", "./pages/*.html"],
   theme: {
     extend: {
       backgroundColor: {
@@ -48,6 +48,7 @@ module.exports = {
       },
       height: {
         '550px': '550px',
+        '450px': '450px',
         '823px': '823px',
         '723px': '723px'
       },
@@ -71,6 +72,9 @@ module.exports = {
       },
       maxWidth: {
         '430px': '430px'
+      },
+      lineHeight: {
+        '8px': '8px',
       }
     },
   },
