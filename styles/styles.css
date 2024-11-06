@@ -626,6 +626,10 @@ video {
   z-index: 50;
 }
 
+.col-end-2 {
+  grid-column-end: 2;
+}
+
 .flex {
   display: flex;
 }
@@ -656,6 +660,10 @@ video {
 
 .w-screen {
   width: 100vw;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
 }
 
 .translate-y-1\/2 {
@@ -746,11 +754,6 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
-.bg-gray-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
-}
-
 .bg-verde_catolica {
   --tw-bg-opacity: 1;
   background-color: rgb(54 162 188 / var(--tw-bg-opacity));
@@ -759,11 +762,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-red-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(248 113 113 / var(--tw-bg-opacity));
 }
 
 .object-cover {
@@ -821,18 +819,6 @@ video {
   line-height: 2rem;
 }
 
-.leading-8px {
-  line-height: 8px;
-}
-
-.leading-3 {
-  line-height: .75rem;
-}
-
-.leading-5 {
-  line-height: 1.25rem;
-}
-
 .leading-4 {
   line-height: 1rem;
 }
@@ -865,6 +851,10 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.line-through {
+  text-decoration-line: line-through;
 }
 
 .opacity-50 {
@@ -1093,12 +1083,20 @@ video {
     height: 0px;
   }
 
+  .\33 20px\:h-12 {
+    height: 3rem;
+  }
+
   .\33 20px\:h-24 {
     height: 6rem;
   }
 
   .\33 20px\:h-32 {
     height: 8rem;
+  }
+
+  .\33 20px\:h-4 {
+    height: 1rem;
   }
 
   .\33 20px\:h-44 {
@@ -1129,20 +1127,32 @@ video {
     height: 100%;
   }
 
-  .\33 20px\:h-4 {
-    height: 1rem;
+  .\33 20px\:w-10 {
+    width: 2.5rem;
   }
 
   .\33 20px\:w-11\/12 {
     width: 91.666667%;
   }
 
+  .\33 20px\:w-120px {
+    width: 120px;
+  }
+
   .\33 20px\:w-14 {
     width: 3.5rem;
   }
 
+  .\33 20px\:w-16 {
+    width: 4rem;
+  }
+
   .\33 20px\:w-32 {
     width: 8rem;
+  }
+
+  .\33 20px\:w-4 {
+    width: 1rem;
   }
 
   .\33 20px\:w-5 {
@@ -1173,12 +1183,8 @@ video {
     width: 100%;
   }
 
-  .\33 20px\:w-3 {
-    width: 0.75rem;
-  }
-
-  .\33 20px\:w-4 {
-    width: 1rem;
+  .\33 20px\:basis-11\/12 {
+    flex-basis: 91.666667%;
   }
 
   .\33 20px\:-translate-x-1\/2 {
@@ -1223,12 +1229,12 @@ video {
     gap: 0.75rem;
   }
 
-  .\33 20px\:gap-5 {
-    gap: 1.25rem;
-  }
-
   .\33 20px\:gap-4 {
     gap: 1rem;
+  }
+
+  .\33 20px\:gap-5 {
+    gap: 1.25rem;
   }
 
   .\33 20px\:rounded-full {
@@ -1251,19 +1257,14 @@ video {
     border-width: 1px;
   }
 
-  .\33 20px\:border-gray-400 {
-    --tw-border-opacity: 1;
-    border-color: rgb(156 163 175 / var(--tw-border-opacity));
-  }
-
-  .\33 20px\:border-verde_catolica {
-    --tw-border-opacity: 1;
-    border-color: rgb(54 162 188 / var(--tw-border-opacity));
-  }
-
   .\33 20px\:border-azul_catolica {
     --tw-border-opacity: 1;
     border-color: rgb(27 92 255 / var(--tw-border-opacity));
+  }
+
+  .\33 20px\:border-gray-400 {
+    --tw-border-opacity: 1;
+    border-color: rgb(156 163 175 / var(--tw-border-opacity));
   }
 
   .\33 20px\:bg-amarillo_catolica {
@@ -1296,13 +1297,14 @@ video {
        object-fit: cover;
   }
 
-  .\33 20px\:p-3 {
-    padding: 0.75rem;
-  }
-
   .\33 20px\:px-2 {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+  }
+
+  .\33 20px\:px-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
   }
 
   .\33 20px\:px-4 {
@@ -1325,6 +1327,11 @@ video {
     padding-bottom: 0.25rem;
   }
 
+  .\33 20px\:py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
   .\33 20px\:py-3 {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
@@ -1338,21 +1345,6 @@ video {
   .\33 20px\:py-9 {
     padding-top: 2.25rem;
     padding-bottom: 2.25rem;
-  }
-
-  .\33 20px\:px-3 {
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
-  }
-
-  .\33 20px\:py-2 {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-  }
-
-  .\33 20px\:py-5 {
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
   }
 
   .\33 20px\:pb-2 {
@@ -1432,6 +1424,11 @@ video {
     color: rgb(139 139 139 / var(--tw-text-opacity));
   }
 
+  .\33 20px\:text-red-600 {
+    --tw-text-opacity: 1;
+    color: rgb(220 38 38 / var(--tw-text-opacity));
+  }
+
   .\33 20px\:text-verde_catolica {
     --tw-text-opacity: 1;
     color: rgb(54 162 188 / var(--tw-text-opacity));
@@ -1486,8 +1483,16 @@ video {
     margin-right: 3.5rem;
   }
 
+  .\34 40px\:w-400px {
+    width: 400px;
+  }
+
   .\34 40px\:w-96 {
     width: 24rem;
+  }
+
+  .\34 40px\:basis-400px {
+    flex-basis: 400px;
   }
 }
 
@@ -1558,6 +1563,20 @@ video {
 
   .\37 00px\:text-start {
     text-align: start;
+  }
+}
+
+@media (min-width: 816px) {
+  .\38 16px\:col-start-1 {
+    grid-column-start: 1;
+  }
+
+  .\38 16px\:row-start-1 {
+    grid-row-start: 1;
+  }
+
+  .\38 16px\:row-end-2 {
+    grid-row-end: 2;
   }
 }
 

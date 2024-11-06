@@ -34,6 +34,7 @@ module.exports = {
         '900px': '900px',
         '540px': '540px',
         '320px': '320px',
+        '816px': '816px',
         '820px': '820px',
         '440px': '440px',
         '700px': '700px',
@@ -63,7 +64,8 @@ module.exports = {
         '1300px': '1300px',
         '1550px': '1550px',
         '900px': '900px',
-        '940px': '940px'
+        '940px': '940px',
+        '120px': '120px'
       },
       fontSize: {
         '15px': '15px',
@@ -75,6 +77,9 @@ module.exports = {
       },
       lineHeight: {
         '8px': '8px',
+      },
+      flexBasis: {
+        '400px': '400px'
       }
     },
   },
