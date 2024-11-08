@@ -13,7 +13,9 @@ module.exports = {
         'azul_catolica': '#1B5CFF',
         'amarillo_catolica': '#F4DA40',
         'verde_catolica': '#36A2BC',
-        'gris_catolica_letra': '#8b8b8b'
+        'gris_catolica_letra': '#8b8b8b',
+        'hover_verde_catolica': '#4bb8d3',
+        'gradient_verde_catolica': '#3ea6c6'
       },
       borderColor: {
         'azul_catolica': '#1B5CFF',
@@ -81,6 +83,9 @@ module.exports = {
       },
       flexBasis: {
         '400px': '400px'
+      },
+      borderRadius: {
+        '40px': '40px'
       }
     },
   },
