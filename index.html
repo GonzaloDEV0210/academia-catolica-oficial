@@ -9,10 +9,9 @@
     <link rel="stylesheet" href="/node_modules/animate.css/animate.min.css">
     <link rel="stylesheet" href="/node_modules/swiper/swiper-bundle.min.css">
 
+    <link rel="stylesheet" href="styles/gallery.css">
+
     <link rel="shortcut icon" href="/icons/favi.png" type="image/x-icon">
-    
-    <link rel="stylesheet" href="/node_modules/lightgallery.js/dist/css/lightgallery.min.css">
-    <link rel="stylesheet" href="/node_modules/lightgallery.js/dist/css/lightgallery.css">
 </head>
 <body id="body" class="relative">
     <header id="header" class="relative">
@@ -402,108 +401,90 @@
     </footer>
 
     <div id="modal_natacion" class="fixed 320px:top-0 320px:left-0 bg-black 320px:w-full 320px:h-full 320px:z-50 overflow-y-auto hidden">
-        <img id="close_modal_nat" class="320px:w-14 320px:absolute 320px:top-4 320px:right-4" src="/icons/equis_blanco.png" alt="Icono de cerrar">
-        <div id="static-thumbnails" class="my-9 m-auto">
-            <a href="/images/gal_nat2.webp">
-                <img class="w-96" src="/images/gal_nat2.webp" alt="">
-            </a>
-            <a href="/images/gal_nat3.webp">
-                <img class="w-96" src="/images/gal_nat3.webp" alt="">
-            </a>
-            <a href="/images/gal_nat4.webp">
-                <img class="w-96" src="/images/gal_nat4.webp" alt="">
-            </a>
-            <a href="/images/gal_nat5.webp">
-                <img class="w-96" src="/images/gal_nat5.webp" alt="">
-            </a>
-            <a href="/images/gal_nat6.webp">
-                <img class="w-96" src="/images/gal_nat6.webp" alt="">
-            </a>
-            <a href="/images/gal_nat7.webp">
-                <img class="w-96" src="/images/gal_nat7.webp" alt="">
-            </a>
-            <a href="/images/gal_nat.webp">
-                <img class="w-96" src="/images/gal_nat.webp" alt="">
-            </a>
-            <a href="/images/gal_nat2.webp">
-                <img class="w-96" src="/images/gal_nat2.webp" alt="">
-            </a>
-            <a href="/images/gal_nat3.webp">
-                <img class="w-96" src="/images/gal_nat3.webp" alt="">
-            </a>
-            <a href="/images/gal_nat.webp">
-                <img class="w-96" src="/images/gal_nat.webp" alt="">
-            </a>
+        <img id="close_modal_nat" class="320px:absolute" src="/icons/equis_blanco.png" alt="Icono de cerrar">
+        <div class="row-gallery">
+            <div class="col-gallery">
+                <img class="w-full" src="/images/gal_nat2.webp" alt="">
+                <img class="w-full" src="/images/gal_nat3.webp" alt="">
+                <img class="w-full" src="/images/gal_nat4.webp" alt="">
+                <img class="w-full" src="/images/gal_nat5.webp" alt="">
+            </div>
+            <div class="col-gallery">
+                <img class="w-full" src="/images/gal_nat6.webp" alt="">
+                <img class="w-full" src="/images/gal_nat7.webp" alt="">
+                <img class="w-full" src="/images/gal_nat.webp" alt="">
+                <img class="w-full" src="/images/gal_nat2.webp" alt="">
+            </div>
+            <div class="col-gallery">
+                <img class="w-full" src="/images/gal_nat3.webp" alt="">
+                <img class="w-full" src="/images/gal_nat.webp" alt="">
+                <img class="w-full" src="/images/gal_nat2.webp" alt="">
+                <img class="w-full" src="/images/gal_nat3.webp" alt="">
+            </div>
+            <div class="col-gallery">
+                <img class="w-full" src="/images/gal_nat4.webp" alt="">
+                <img class="w-full" src="/images/gal_nat5.webp" alt="">
+                <img class="w-full" src="/images/gal_nat6.webp" alt="">
+                <img class="w-full" src="/images/gal_nat7.webp" alt="">
+            </div>
         </div>
     </div>
     <div id="modal_teatro" class="fixed 320px:top-0 320px:left-0 bg-black 320px:w-full 320px:h-full 320px:z-50 overflow-y-auto hidden">
         <img id="close_modal_tea" class="320px:w-14 320px:absolute 320px:top-4 320px:right-4" src="/icons/equis_blanco.png" alt="Icono de cerrar">
-        <div id="static-thumbnails1" class="my-9 m-auto">
-            <a href="/images/gal_nat2.webp">
-                <img src="/images/gal_nat2.webp" alt="">
-            </a>
-            <a href="/images/gal_nat3.webp">
-                <img src="/images/gal_nat3.webp" alt="">
-            </a>
-            <a href="/images/gal_nat4.webp">
-                <img src="/images/gal_nat4.webp" alt="">
-            </a>
-            <a href="/images/gal_nat5.webp">
-                <img src="/images/gal_nat5.webp" alt="">
-            </a>
-            <a href="/images/gal_nat6.webp">
-                <img src="/images/gal_nat6.webp" alt="">
-            </a>
-            <a href="/images/gal_nat7.webp">
-                <img src="/images/gal_nat7.webp" alt="">
-            </a>
-            <a href="/images/gal_nat.webp">
-                <img src="/images/gal_nat.webp" alt="">
-            </a>
-            <a href="/images/gal_nat2.webp">
-                <img src="/images/gal_nat2.webp" alt="">
-            </a>
-            <a href="/images/gal_nat3.webp">
-                <img src="/images/gal_nat3.webp" alt="">
-            </a>
-            <a href="/images/gal_nat.webp">
-                <img src="/images/gal_nat.webp" alt="">
-            </a>
+        <div class="row-gallery">
+            <div class="col-gallery">
+                <img class="w-full" src="/images/gal_nat2.webp" alt="">
+                <img class="w-full" src="/images/gal_nat3.webp" alt="">
+                <img class="w-full" src="/images/gal_nat4.webp" alt="">
+                <img class="w-full" src="/images/gal_nat5.webp" alt="">
+            </div>
+            <div class="col-gallery">
+                <img class="w-full" src="/images/gal_nat6.webp" alt="">
+                <img class="w-full" src="/images/gal_nat7.webp" alt="">
+                <img class="w-full" src="/images/gal_nat.webp" alt="">
+                <img class="w-full" src="/images/gal_nat2.webp" alt="">
+            </div>
+            <div class="col-gallery">
+                <img class="w-full" src="/images/gal_nat3.webp" alt="">
+                <img class="w-full" src="/images/gal_nat.webp" alt="">
+                <img class="w-full" src="/images/gal_nat2.webp" alt="">
+                <img class="w-full" src="/images/gal_nat3.webp" alt="">
+            </div>
+            <div class="col-gallery">
+                <img class="w-full" src="/images/gal_nat4.webp" alt="">
+                <img class="w-full" src="/images/gal_nat5.webp" alt="">
+                <img class="w-full" src="/images/gal_nat6.webp" alt="">
+                <img class="w-full" src="/images/gal_nat7.webp" alt="">
+            </div>
         </div>
     </div>
     <div id="modal_ballet" class="fixed 320px:top-0 320px:left-0 bg-black 320px:w-full 320px:h-full 320px:z-50 overflow-y-auto hidden">
         <img id="close_modal_bal" class="320px:w-14 320px:absolute 320px:top-4 320px:right-4" src="/icons/equis_blanco.png" alt="Icono de cerrar">
-        <div id="static-thumbnails2" class="my-9 m-auto">
-            <a href="/images/gal_nat2.webp">
-                <img src="/images/gal_nat2.webp" alt="">
-            </a>
-            <a href="/images/gal_nat3.webp">
-                <img src="/images/gal_nat3.webp" alt="">
-            </a>
-            <a href="/images/gal_nat4.webp">
-                <img src="/images/gal_nat4.webp" alt="">
-            </a>
-            <a href="/images/gal_nat5.webp">
-                <img src="/images/gal_nat5.webp" alt="">
-            </a>
-            <a href="/images/gal_nat6.webp">
-                <img src="/images/gal_nat6.webp" alt="">
-            </a>
-            <a href="/images/gal_nat7.webp">
-                <img src="/images/gal_nat7.webp" alt="">
-            </a>
-            <a href="/images/gal_nat.webp">
-                <img src="/images/gal_nat.webp" alt="">
-            </a>
-            <a href="/images/gal_nat2.webp">
-                <img src="/images/gal_nat2.webp" alt="">
-            </a>
-            <a href="/images/gal_nat3.webp">
-                <img src="/images/gal_nat3.webp" alt="">
-            </a>
-            <a href="/images/gal_nat.webp">
-                <img src="/images/gal_nat.webp" alt="">
-            </a>
+        <div class="row-gallery">
+            <div class="col-gallery">
+                <img class="w-full" src="/images/gal_nat2.webp" alt="">
+                <img class="w-full" src="/images/gal_nat3.webp" alt="">
+                <img class="w-full" src="/images/gal_nat4.webp" alt="">
+                <img class="w-full" src="/images/gal_nat5.webp" alt="">
+            </div>
+            <div class="col-gallery">
+                <img class="w-full" src="/images/gal_nat6.webp" alt="">
+                <img class="w-full" src="/images/gal_nat7.webp" alt="">
+                <img class="w-full" src="/images/gal_nat.webp" alt="">
+                <img class="w-full" src="/images/gal_nat2.webp" alt="">
+            </div>
+            <div class="col-gallery">
+                <img class="w-full" src="/images/gal_nat3.webp" alt="">
+                <img class="w-full" src="/images/gal_nat.webp" alt="">
+                <img class="w-full" src="/images/gal_nat2.webp" alt="">
+                <img class="w-full" src="/images/gal_nat3.webp" alt="">
+            </div>
+            <div class="col-gallery">
+                <img class="w-full" src="/images/gal_nat4.webp" alt="">
+                <img class="w-full" src="/images/gal_nat5.webp" alt="">
+                <img class="w-full" src="/images/gal_nat6.webp" alt="">
+                <img class="w-full" src="/images/gal_nat7.webp" alt="">
+            </div>
         </div>
     </div>
 
@@ -520,8 +501,5 @@
     <script src="/js/animated.js"></script>
     <script src="/js/modal.js"></script>
     <script src="/js/costos.js"></script>
-    <script src="/node_modules/lightgallery.js/dist/js/lightgallery.min.js"></script>
-    <script src="/node_modules/lightgallery.js/dist/js/lightgallery.js"></script>
-    <script src="/js/gallery.js"></script>
 </body>
 </html>
