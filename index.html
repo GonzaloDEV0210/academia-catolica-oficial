@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="/node_modules/swiper/swiper-bundle.min.css">
 
     <link rel="shortcut icon" href="/icons/favi.png" type="image/x-icon">
+    
+    <link rel="stylesheet" href="/node_modules/lightgallery.js/dist/css/lightgallery.min.css">
+    <link rel="stylesheet" href="/node_modules/lightgallery.js/dist/css/lightgallery.css">
 </head>
 <body id="body" class="relative">
     <header id="header" class="relative">
@@ -398,49 +401,109 @@
         <p class="font-bree_regular 320px:mt-10 320px:text-center 320px:text-sm">&copy2024 Club La Católica - Todos los derechos reservados</p>
     </footer>
 
-    <div id="modal_natacion" class="320px:absolute 320px:top-0 320px:left-0 320px:w-full 320px:bg-black 320px:opacity-80 320px:z-50 320px:overflow-y-auto">
+    <div id="modal_natacion" class="fixed 320px:top-0 320px:left-0 bg-black 320px:w-full 320px:h-full 320px:z-50 overflow-y-auto hidden">
         <img id="close_modal_nat" class="320px:w-14 320px:absolute 320px:top-4 320px:right-4" src="/icons/equis_blanco.png" alt="Icono de cerrar">
-        <div class="320px:w-64 320px:mx-auto 320px:flex 320px:flex-wrap 320px:gap-5 320px:mt-14 320px:mb-4">
-            <img class="320px:rounded-lg" src="/images/gal_nat.webp" alt="">
-            <img class="320px:rounded-lg" src="/images/gal_nat2.webp" alt="">
-            <img class="320px:rounded-lg" src="/images/gal_nat3.webp" alt="">
-            <img class="320px:rounded-lg" src="/images/gal_nat4.webp" alt="">
-            <img class="320px:rounded-lg" src="/images/gal_nat5.webp" alt="">
-            <img class="320px:rounded-lg" src="/images/gal_nat6.webp" alt="">
-            <img class="320px:rounded-lg" src="/images/gal_nat7.webp" alt="">
-            <img class="320px:rounded-lg" src="/images/gal_nat.webp" alt="">
-            <img class="320px:rounded-lg" src="/images/gal_nat2.webp" alt="">
-            <img class="320px:rounded-lg" src="/images/gal_nat3.webp" alt="">
+        <div id="static-thumbnails" class="my-9 m-auto">
+            <a href="/images/gal_nat2.webp">
+                <img class="w-96" src="/images/gal_nat2.webp" alt="">
+            </a>
+            <a href="/images/gal_nat3.webp">
+                <img class="w-96" src="/images/gal_nat3.webp" alt="">
+            </a>
+            <a href="/images/gal_nat4.webp">
+                <img class="w-96" src="/images/gal_nat4.webp" alt="">
+            </a>
+            <a href="/images/gal_nat5.webp">
+                <img class="w-96" src="/images/gal_nat5.webp" alt="">
+            </a>
+            <a href="/images/gal_nat6.webp">
+                <img class="w-96" src="/images/gal_nat6.webp" alt="">
+            </a>
+            <a href="/images/gal_nat7.webp">
+                <img class="w-96" src="/images/gal_nat7.webp" alt="">
+            </a>
+            <a href="/images/gal_nat.webp">
+                <img class="w-96" src="/images/gal_nat.webp" alt="">
+            </a>
+            <a href="/images/gal_nat2.webp">
+                <img class="w-96" src="/images/gal_nat2.webp" alt="">
+            </a>
+            <a href="/images/gal_nat3.webp">
+                <img class="w-96" src="/images/gal_nat3.webp" alt="">
+            </a>
+            <a href="/images/gal_nat.webp">
+                <img class="w-96" src="/images/gal_nat.webp" alt="">
+            </a>
         </div>
     </div>
-    <div id="modal_teatro" class="320px:absolute 320px:top-0 320px:left-0 320px:w-full 320px:bg-black 320px:opacity-80 320px:z-50 320px:overflow-y-auto">
+    <div id="modal_teatro" class="fixed 320px:top-0 320px:left-0 bg-black 320px:w-full 320px:h-full 320px:z-50 overflow-y-auto hidden">
         <img id="close_modal_tea" class="320px:w-14 320px:absolute 320px:top-4 320px:right-4" src="/icons/equis_blanco.png" alt="Icono de cerrar">
-        <div class="320px:w-64 320px:mx-auto 320px:flex 320px:flex-wrap 320px:gap-5 320px:mt-14 320px:mb-4">
-            <img class="320px:rounded-lg" src="/images/gal_nat.webp" alt="">
-            <img class="320px:rounded-lg" src="/images/gal_nat2.webp" alt="">
-            <img class="320px:rounded-lg" src="/images/gal_nat3.webp" alt="">
-            <img class="320px:rounded-lg" src="/images/gal_nat4.webp" alt="">
-            <img class="320px:rounded-lg" src="/images/gal_nat5.webp" alt="">
-            <img class="320px:rounded-lg" src="/images/gal_nat6.webp" alt="">
-            <img class="320px:rounded-lg" src="/images/gal_nat7.webp" alt="">
-            <img class="320px:rounded-lg" src="/images/gal_nat.webp" alt="">
-            <img class="320px:rounded-lg" src="/images/gal_nat2.webp" alt="">
-            <img class="320px:rounded-lg" src="/images/gal_nat3.webp" alt="">
+        <div id="static-thumbnails1" class="my-9 m-auto">
+            <a href="/images/gal_nat2.webp">
+                <img src="/images/gal_nat2.webp" alt="">
+            </a>
+            <a href="/images/gal_nat3.webp">
+                <img src="/images/gal_nat3.webp" alt="">
+            </a>
+            <a href="/images/gal_nat4.webp">
+                <img src="/images/gal_nat4.webp" alt="">
+            </a>
+            <a href="/images/gal_nat5.webp">
+                <img src="/images/gal_nat5.webp" alt="">
+            </a>
+            <a href="/images/gal_nat6.webp">
+                <img src="/images/gal_nat6.webp" alt="">
+            </a>
+            <a href="/images/gal_nat7.webp">
+                <img src="/images/gal_nat7.webp" alt="">
+            </a>
+            <a href="/images/gal_nat.webp">
+                <img src="/images/gal_nat.webp" alt="">
+            </a>
+            <a href="/images/gal_nat2.webp">
+                <img src="/images/gal_nat2.webp" alt="">
+            </a>
+            <a href="/images/gal_nat3.webp">
+                <img src="/images/gal_nat3.webp" alt="">
+            </a>
+            <a href="/images/gal_nat.webp">
+                <img src="/images/gal_nat.webp" alt="">
+            </a>
         </div>
     </div>
-    <div id="modal_ballet" class="320px:absolute 320px:top-0 320px:left-0 320px:w-full 320px:bg-black 320px:opacity-80 320px:z-50 320px:overflow-y-auto">
+    <div id="modal_ballet" class="fixed 320px:top-0 320px:left-0 bg-black 320px:w-full 320px:h-full 320px:z-50 overflow-y-auto hidden">
         <img id="close_modal_bal" class="320px:w-14 320px:absolute 320px:top-4 320px:right-4" src="/icons/equis_blanco.png" alt="Icono de cerrar">
-        <div class="320px:w-64 320px:mx-auto 320px:flex 320px:flex-wrap 320px:gap-5 320px:mt-14 320px:mb-4">
-            <img class="320px:rounded-lg" src="/images/gal_nat.webp" alt="">
-            <img class="320px:rounded-lg" src="/images/gal_nat2.webp" alt="">
-            <img class="320px:rounded-lg" src="/images/gal_nat3.webp" alt="">
-            <img class="320px:rounded-lg" src="/images/gal_nat4.webp" alt="">
-            <img class="320px:rounded-lg" src="/images/gal_nat5.webp" alt="">
-            <img class="320px:rounded-lg" src="/images/gal_nat6.webp" alt="">
-            <img class="320px:rounded-lg" src="/images/gal_nat7.webp" alt="">
-            <img class="320px:rounded-lg" src="/images/gal_nat.webp" alt="">
-            <img class="320px:rounded-lg" src="/images/gal_nat2.webp" alt="">
-            <img class="320px:rounded-lg" src="/images/gal_nat3.webp" alt="">
+        <div id="static-thumbnails2" class="my-9 m-auto">
+            <a href="/images/gal_nat2.webp">
+                <img src="/images/gal_nat2.webp" alt="">
+            </a>
+            <a href="/images/gal_nat3.webp">
+                <img src="/images/gal_nat3.webp" alt="">
+            </a>
+            <a href="/images/gal_nat4.webp">
+                <img src="/images/gal_nat4.webp" alt="">
+            </a>
+            <a href="/images/gal_nat5.webp">
+                <img src="/images/gal_nat5.webp" alt="">
+            </a>
+            <a href="/images/gal_nat6.webp">
+                <img src="/images/gal_nat6.webp" alt="">
+            </a>
+            <a href="/images/gal_nat7.webp">
+                <img src="/images/gal_nat7.webp" alt="">
+            </a>
+            <a href="/images/gal_nat.webp">
+                <img src="/images/gal_nat.webp" alt="">
+            </a>
+            <a href="/images/gal_nat2.webp">
+                <img src="/images/gal_nat2.webp" alt="">
+            </a>
+            <a href="/images/gal_nat3.webp">
+                <img src="/images/gal_nat3.webp" alt="">
+            </a>
+            <a href="/images/gal_nat.webp">
+                <img src="/images/gal_nat.webp" alt="">
+            </a>
         </div>
     </div>
 
@@ -457,5 +520,8 @@
     <script src="/js/animated.js"></script>
     <script src="/js/modal.js"></script>
     <script src="/js/costos.js"></script>
+    <script src="/node_modules/lightgallery.js/dist/js/lightgallery.min.js"></script>
+    <script src="/node_modules/lightgallery.js/dist/js/lightgallery.js"></script>
+    <script src="/js/gallery.js"></script>
 </body>
 </html>
