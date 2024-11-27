@@ -16,7 +16,11 @@ const costos = {
 // Función para mostrar el texto de detalle
 function verDetalle(elementoTexto) {
     elementoTexto.dataset.originalText = elementoTexto.textContent; // Guarda el texto original
-    elementoTexto.textContent = 'Ver Detalles';
+    if (elementoTexto.textContent == "NATACIÓN") {
+        elementoTexto.textContent = 'Ver Detalles';
+    } else {
+        elementoTexto.textContent = 'Próximamente';
+    }
 }
 
 // Función para restaurar el texto original
