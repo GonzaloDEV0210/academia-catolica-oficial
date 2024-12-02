@@ -71,3 +71,24 @@
         width: 80px;
     }
 }
+
+/* -------------------------------- */
+@media (min-width: 320px) {
+    #img_tb_mobil {
+        display: block;
+    }
+    
+    #img_tb_desktop {
+        display: none;
+    }
+}
+
+@media (min-width: 700px) {
+    #img_tb_mobil {
+        display: none;
+    }
+    
+    #img_tb_desktop {
+        display: block;
+    }
+}

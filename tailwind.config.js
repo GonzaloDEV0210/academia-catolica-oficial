@@ -8,7 +8,7 @@ module.exports = {
         'amarillo_catolica': '#F4DA40',
         'verde_catolica': '#36A2BC',
         'hover_verde_catolica': '#4bb8d3',
-        'fondo_modal': 'rgba(0, 0, 0, 0.8);'
+        'fondo_modal': 'rgba(0, 0, 0, 0.8);',
       },
       colors: {
         'azul_catolica': '#1B5CFF',
@@ -40,7 +40,7 @@ module.exports = {
         '816px': '816px',
         '820px': '820px',
         '440px': '440px',
-        '700px': '700px',
+        '700': '700px',
         '1400px': '1400px',
         '1500px': '1500px',
         '1600px': '1600px',
