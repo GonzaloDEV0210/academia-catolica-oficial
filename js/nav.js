@@ -12,16 +12,6 @@ icono_cerrar.addEventListener('click', ()=>{
     nav_movil.classList.add('bottom-full')
 });
 
-/* Altura del slider */
-const sliders = document.getElementById('sliders');
-const alto_slider = window.innerHeight;
-document.addEventListener('DOMContentLoaded', ()=>{
-    if (alto_slider < 824) {
-        sliders.classList.remove('1360px:h-screen');
-        sliders.classList.add('1360px:h-823px')
-    }
-});
-
 /* Color del fondo del nav al momento de hacer el scrool */
 
 const nav_cabecera = document.getElementById('nav_cabecera');
