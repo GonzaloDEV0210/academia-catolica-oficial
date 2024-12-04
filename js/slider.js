@@ -4,7 +4,6 @@ const swiper = new Swiper('#sliders', {
       delay: 7000,
       disableOnInteraction: false,
   },
-  effect: 'fade',
   speed: 1000
 });
 
