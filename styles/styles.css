@@ -877,11 +877,6 @@ video {
   line-height: 1rem;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
 .text-amarillo_catolica {
   --tw-text-opacity: 1;
   color: rgb(244 218 64 / var(--tw-text-opacity));
@@ -1540,12 +1535,12 @@ video {
     margin-top: 1.25rem;
   }
 
-  .\34 40px\:w-96 {
-    width: 24rem;
-  }
-
   .\34 40px\:w-420px {
     width: 420px;
+  }
+
+  .\34 40px\:w-96 {
+    width: 24rem;
   }
 }
 
