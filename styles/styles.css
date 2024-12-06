@@ -775,6 +775,10 @@ video {
   overflow-y: auto;
 }
 
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+
 .rounded-lg {
   border-radius: 0.5rem;
 }
@@ -785,6 +789,16 @@ video {
 
 .rounded-sm {
   border-radius: 0.125rem;
+}
+
+.rounded-b-3xl {
+  border-bottom-right-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+}
+
+.rounded-b-2xl {
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
 }
 
 .rounded-ee-3xl {
@@ -1278,6 +1292,14 @@ video {
 
   .\33 20px\:rounded-md {
     border-radius: 0.375rem;
+  }
+
+  .\33 20px\:rounded-3xl {
+    border-radius: 1.5rem;
+  }
+
+  .\33 20px\:rounded-2xl {
+    border-radius: 1rem;
   }
 
   .\33 20px\:rounded-t-lg {
