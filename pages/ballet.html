@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club Deportivo La Católica</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="/styles/font.css">
+    <link rel="stylesheet" href="/node_modules/animate.css/animate.min.css">
+    <link rel="stylesheet" href="/node_modules/swiper/swiper-bundle.min.css">
+
+    <link rel="shortcut icon" href="/icons/favi.png" type="image/x-icon">
+</head>
+<body>
+    <header id="header" class="relative">
+        <div id="sliders" class="swiper 320px:h-450px 700:h-550px relative">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img class="w-full h-full object-cover" src="https://images.pexels.com/photos/358010/pexels-photo-358010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Slider relacionado a la natación">
+                    <div class="absolute top-0 left-0 bg-yellow-500 z-20 w-full h-full opacity-50"></div>
+                    <div class="z-50 absolute top-0 left-0 text-white w-full h-full text-center flex flex-col justify-center items-center 940px:px-25% 320px:px-5% gap-2">
+                        <h1 class="1360px:text-9xl 940px:text-8xl 320px:text-6xl 940px:mt-0 text-white font-bree_bold">BALLET</h1>
+                        <h2 class="font-bree_bold 1360px:text-4xl 940px:text-3xl 320px:text-2xl">¡Sumérgete en la diversión!</h2>
+                        <!-- <p class="font-bree_regular 1360px:text-base 320px:text-sm  text-gray-300">Vive una experiencia alegre y emocionante mientras aprendes a nadar. Las clases están diseñadas para combinar el aprendizaje con la diversión en cada sesión</p> -->
+                        <!-- <button class="bg-azul_catolica px-10 py-1 rounded-md 320px:mt-4 font-bree_regular outline outline-1 outline-azul_catolica hover:bg-transparent hover:cursor-pointer transition duration-500 1260px:text-base 940px:text-sm 320px:text-xs 1360px:mt-10">CONTÁCTANOS</button> -->
+                        <a href="https://wa.me/997470362" target="_blank" class="320px:bg-yellow-500 320px:text-white 320px:font-bree_regular 320px:px-7 py-0.5 320px:rounded-lg hover:bg-yellow-200 duration-300">Contáctanos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="nav_cabecera" class="fixed top-5 320px:top-0 820px:py-5 320px:py-3 left-0 z-30 w-full flex items-center justify-between px-24 1260px:px-24 820px:px-14 320px:px-4 820px:bg-transparent 320px:bg-white duration-300 320px:shadow-lg"> <!-- 820px:bg-transparent -->
+            <img class="1360px:w-48 820px:w-40 820px:inline-block 320px:hidden" src="/icons/CLC HORIZONTAL.png" alt="Logo de la Acadeémia La Católica">
+            <img class="820px:hidden 320px:inline-block 320px:w-32" src="/icons/CLC HORIZONTAL.png" alt="Icono de la Academia Católica">
+            <img id="barra_menu" class="820px:hidden 320px:w-8" src="/icons/menu.png" alt="Icono de la barra del menú">
+            <nav class="320px:hidden 820px:inline-block">
+                <img class="hidden" src="/icons/menu.png" alt="Icono de la barra del menú">
+                <ul class="flex gap-3">
+                    <li class="hidden">
+                        <img src="/icons/equis.png" alt="">
+                    </li>
+                    <a id="opcion_nav0" class="font-bree_regular text-white 940px:text-base hover:bg-white hover:text-black duration-500 px-4 py-1 rounded-md 1600px:text-lg" href="#header">
+                        <li class="">Inicio</li>
+                    </a>
+                    <a id="opcion_nav1" class="font-bree_regular text-white 940px:text-base hover:bg-white hover:text-black duration-500 px-4 py-1 rounded-md 1600px:text-lg" href="/index.html">
+                        <li class="">Nosotros</li>
+                    </a>
+                    <a id="opcion_nav3" class="font-bree_regular text-white 940px:text-base hover:bg-white hover:text-black duration-500 px-4 py-1 rounded-md 1600px:text-lg" href="/index.html#talleres_costos">
+                        <li class="">Talleres y Costos</li>
+                    </a>
+                    <a id="opcion_nav2" class="font-bree_regular text-white 940px:text-base hover:bg-white hover:text-black duration-500 px-4 py-1 rounded-md 1600px:text-lg" href="/index.html#noticias">
+                        <li class="">Noticias</li>
+                    </a>
+                    <a id="opcion_nav5" class="font-bree_regular text-white 940px:text-base hover:bg-white hover:text-black duration-500 px-4 py-1 rounded-md 1600px:text-lg" href="/index.html#galeria">
+                        <li class="">Galeria</li>
+                    </a>
+                    <a id="opcion_nav4" class="font-bree_regular text-white 940px:text-base hover:bg-white hover:text-black duration-500 px-4 py-1 rounded-md 1600px:text-lg" href="#contacto">
+                        <li class="">Contáctanos</li>
+                    </a>
+                </ul>
+            </nav>
+            <nav id="nav_movil" class="820px:hidden absolute bg-white opacity-95 left-0 w-screen h-screen bottom-full"><!-- Cambiar el bottom-full por top-0 -->
+                <ul class="flex flex-col gap-7 items-center h-full justify-center">
+                    <li id="icono_cerrar_nav" class="absolute w-7 right-5 top-5">
+                        <img src="/icons/equis.png" alt="Icono de X para cerrar el menú">
+                    </li>
+                    <a id="inicio_movil" class="font-bree_bold text-2xl text-black 940px:text-base hover:bg-white hover:text-black duration-500 px-4 py-1 rounded-md" href="#header">
+                        <li class="">Inicio</li>
+                    </a>
+                    <a id="nosotros_movil" class="font-bree_bold text-2xl text-black 940px:text-base hover:bg-white hover:text-black duration-500 px-4 py-1 rounded-md" href="/index.html">
+                        <li class="">Nosotros</li>
+                    </a>
+                    <a id="tallere_movil" class="font-bree_bold text-2xl text-black 940px:text-base hover:bg-white hover:text-black duration-500 px-4 py-1 rounded-md" href="/index.html#talleres_costos">
+                        <li class="">Talleres y Costos</li>
+                    </a>
+                    <a id="noticias_movil" class="font-bree_bold text-2xl text-black 940px:text-base hover:bg-white hover:text-black duration-500 px-4 py-1 rounded-md" href="/index.html#noticias">
+                        <li class="">Noticias</li>
+                    </a>
+                    <a id="galeria_movil" class="font-bree_bold text-2xl text-black 940px:text-base hover:bg-white hover:text-black duration-500 px-4 py-1 rounded-md" href="/index.html#galeria">
+                        <li class="">Galeria</li>
+                    </a>
+                    <a id="contactanos_movil" class="font-bree_bold text-2xl text-black 940px:text-base hover:bg-white hover:text-black duration-500 px-4 py-1 rounded-md" href="#contacto">
+                        <li class="">Contáctanos</li>
+                    </a>
+                </ul>
+                <ul class="absolute right-0 bottom-16 z-50 flex w-full justify-center gap-4">
+                    <a href="https://www.facebook.com/share/19zxjhfCCC/?mibextid=LQQJ4d" target="_blank"><li class="p-1 rounded-md flex items-center justify-center duration-500 hover:cursor-pointer hover:bg-gray-300"><img class="w-7" src="/icons/facebook-negro.png" alt="Icono de Facebook"></li></a>
+                    <a href="https://wa.me/997470362" target="_blank"><li class="p-1 rounded-md flex items-center justify-center duration-500 hover:cursor-pointer hover:bg-gray-300"><img class="w-7" src="/icons/whatsapp-negro.png" alt="Icono de Whatsapp"></li></a>
+                    <a href="https://www.instagram.com/clubdeportivo_lacatolica/profilecard/?igsh=MW42ZTBjOWt1NnU5aw==" target="_blank"><li class="p-1 rounded-md flex items-center justify-center duration-500 hover:cursor-pointer hover:bg-gray-300"><img class="w-7" src="/icons/instagram-negro.png" alt="Icono de Instagram"></li></a>
+                    <a href="https://www.tiktok.com/@clubdeporlacatolica?_t=ZM-8rkAtNsfdF2&_r=1" target="_blank"><li class="p-1 rounded-md flex items-center justify-center duration-500 hover:cursor-pointer hover:bg-gray-300"><img class="w-7" src="/icons/tik-tok-negro.png" alt="Icono de Tik Tok"></li></a>
+                </ul>
+            </nav>
+        </div>
+        <ul class="320px:hidden absolute right-8 top-0 z-50 h-full 820px:flex flex-col justify-center gap-6">
+            <a href="https://www.facebook.com/share/19zxjhfCCC/?mibextid=LQQJ4d" target="_blank"><li class="p-1 rounded-md flex items-center justify-center duration-500 hover:cursor-pointer hover:bg-azul_catolica"><img class="1260px:w-6 540px:w-5" src="/icons/facebook.png" alt="Icono de Facebook"></li></a>
+            <a href="https://wa.me/997470362" target="_blank"><li class="p-1 rounded-md flex items-center justify-center duration-500 hover:cursor-pointer hover:bg-green-500"><img class="1260px:w-6 540px:w-5" src="/icons/whatsapp.png" alt="Icono de Whatsapp"></li></a>
+            <a href="https://www.instagram.com/clubdeportivo_lacatolica/profilecard/?igsh=MW42ZTBjOWt1NnU5aw==" target="_blank"><li class="p-1 rounded-md flex items-center justify-center duration-500 hover:cursor-pointer hover:bg-pink-600"><img class="1260px:w-6 540px:w-5" src="/icons/instagram.png" alt="Icono de Instagram"></li></a>
+            <a href="https://www.tiktok.com/@clubdeporlacatolica?_t=ZM-8rkAtNsfdF2&_r=1" target="_blank"><li class="p-1 rounded-md flex items-center justify-center duration-500 hover:cursor-pointer hover:bg-black"><img class="1260px:w-6 540px:w-5" src="/icons/tik-tok-blanco.png" alt="Icono de Instagram"></li></a>
+        </ul>
+    </header>
+
+    <main class="1000px:w-940px 1260px:w-1200px 900px:mx-auto 900px:flex 900px:flex-row-reverse 320px:mt-4 1800:gap-8">
+        <!-- <section class="320px:flex 320px:flex-col 320px:w-11/12 320px:mx-auto 320px:gap-4 900px:w-auto">
+            <img class="320px:mx-auto 320px:w-80" src="/images/promos/titulo.png" alt="Titulo de promociones">
+            <div class="320px:flex 320px:flex-col 320px:gap-4">
+                <img class="320px:w-80 320px:mx-auto" src="/images/promos/promo_2meses.png" alt="Promoción por 2 meses de matrícula">
+                <img class="320px:w-80 320px:mx-auto" src="/images/promos/promo_enero.png" alt="Promoción por el mes de Enero">
+                <img class="320px:w-80 320px:mx-auto" src="/images/promos/promo_febrero.png" alt="Promocion por el mes de febrero">
+            </div>
+        </section> -->
+        <section class="320px:mt-5 320px:flex 320px:flex-col 320px:gap-4 320px:w-11/12 900px:w-96 1000px:w-500px 320px:mx-auto 440px:w-420px 900px:mt-0 1800:w-900px">
+            <div class="320px:flex 320px:flex-col 320px:gap-4 1800:w-3/5 1800:mx-auto">
+                <div id="aquabebé">
+                    <div class="320px:border 320px:rounded-lg 320px:border-gray-400">
+                        <div class="320px:bg-yellow-500 320px:text-white 320px:font-bree_bold 320px:py-1 320px:flex 320px:flex-col 320px:items-center 320px:leading-none 320px:rounded-t-lg">
+                            <span class="320px:text-lg 440px:text-xl">1° Grupo</span>
+                            <span class="320px:text-sm 440px:text-base font-bree_regular">(4 a 6 años)</span>
+                        </div>
+                        <div class="flex justify-around bg-yellow-600 text-white font-bree_regular items-center">
+                            <span>Turno</span>
+                            <span>Horario</span>
+                            <span>Costo</span>
+                        </div>
+                        <div class="grid grid-cols-3 grid-rows-1 items-center text-center py-3 font-bree_regular text-xs 440px:text-base">
+                            <span>Mie y Vie</span>
+                            <span>10 - 11:00 am</span>
+                            <span class="col-start-3 col-end-4 row-start-1 row-end-2">S/. 180</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="menores_1">
+                    <div class="320px:border 320px:rounded-lg 320px:border-gray-400">
+                        <div class="320px:bg-yellow-500 320px:text-white 320px:font-bree_bold 320px:py-1 320px:flex 320px:flex-col 320px:items-center 320px:leading-none 320px:rounded-t-lg">
+                            <span class="320px:text-lg 440px:text-xl">2° Grupo</span>
+                            <span class="320px:text-sm 440px:text-base font-bree_regular">(7 a 10 años)</span>
+                        </div>
+                        <div class="flex justify-around bg-yellow-600 text-white font-bree_regular items-center">
+                            <span>Turno</span>
+                            <span>Horario</span>
+                            <span>Costo</span>
+                        </div>
+                        <div class="grid grid-cols-3 grid-rows-1 items-center text-center py-3 font-bree_regular text-xs 440px:text-base">
+                            <span class="col-start-1 col-end-2 row-start-1 row-end-2">Mie y Vie</span>
+                            <span>11 - 12:00 pm</span>
+                            <span class="col-start-3 col-end-4 row-start-1 row-end-2">S/. 180</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contacto" class="bg-verde_catolica 320px:text-white 320px:pt-9 320px:pb-2 320px:mt-14">
+        <div class="320px:flex 320px:flex-wrap 320px:gap-5 320px:mx-auto 700:w-11/12 1360px:w-1300px">
+            <div class="320px:mx-auto 320px:w-72 700:w-500px 1000px:w-56 1360px:w-72">
+                <p class="font-bree_bold 320px:text-xl 320px:text-center 700:text-start">Acércate y vive la experiencia en nuestro club</p>
+                <iframe class="320px:w-full 320px:h-56 320px:mx-auto 320px:mt-4 700:h-72 1000px:h-48" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15617.540478915627!2d-77.03406175134279!3d-11.878248975003087!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105d0b8c515cd2f%3A0x72d08cfea0969124!2sCat%C3%B3lica%20School!5e0!3m2!1ses-419!2spe!4v1730249860109!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="320px:flex 320px:flex-wrap 320px:gap-5 320px:mx-auto 1000px:w-96 1260px:w-850px 1260px:flex-nowrap">
+                <div class="320px:w-72 320px:mx-auto 320px:text-center">
+                    <span class="320px:font-bree_bold 320px:text-lg">Dirección</span>
+                    <p class="font-bree_regular 1260px:mt-7">Calle W Mz. Q2, 7mo. Etapa, Urb. Sto. Domingo - Carabayllo</p>
+                </div>
+                <div class="320px:w-72 320px:mx-auto 320px:text-center">
+                    <span class="320px:font-bree_bold 320px:text-lg">Redes Sociales</span>
+                    <ul class="font-bree_regular 320px:flex 320px:flex-col 320px:items-center 320px:gap-3 320px:mt-7 1260px:mt-3">
+                        <li><a class="320px:flex 320px:gap-1" href="https://wa.me/997470362" target="_blank">
+                            <img class="320px:w-5" src="/icons/whatsapp.png" alt="">
+                            <span>Whatsapp</span>
+                        </a></li>
+                        <li><a class="320px:flex 320px:gap-1" href="https://www.facebook.com/share/19zxjhfCCC/?mibextid=LQQJ4d" target="_blank">
+                            <img class="320px:w-5" src="/icons/facebook.png" alt="">
+                            <span>Facebook</span>
+                        </a></li>
+                        <li><a class="320px:flex 320px:gap-1" href="https://www.instagram.com/clubdeportivo_lacatolica/profilecard/?igsh=MW42ZTBjOWt1NnU5aw==" target="_blank">
+                            <img class="320px:w-5" src="/icons/instagram.png" alt="">
+                            <span>Instagram</span>
+                        </a></li>
+                        <li><a class="320px:flex 320px:gap-1" href="https://www.tiktok.com/@clubdeporlacatolica?_t=ZM-8rkAtNsfdF2&_r=1" target="_blank">
+                            <img class="320px:w-5" src="/icons/tik-tok-blanco.png" alt="">
+                            <span>Tik Tok</span>
+                        </a></li>
+                    </ul>
+                </div>
+                <div class="320px:w-72 320px:mx-auto 320px:text-center">
+                    <span class="320px:font-bree_bold 320px:text-lg">Correo</span>
+                    <p class="font-bree_regular 1260px:mt-7">informes@clubcatolica.edu.pe</p>
+                </div>
+            </div>
+        </div>
+        <p class="font-bree_regular 320px:mt-10 320px:text-center 320px:text-sm">&copy2024 Club La Católica - Todos los derechos reservados</p>
+    </footer>
+
+    <div class="fixed 320px:w-14 1400px:w-16 320px:right-4 1400px:right-8 1500px:w-20 1400px:bottom-6 320px:bottom-5 320px:z-50">
+        <a href="https://wa.me/997470362" target="_blank" rel="noopener noreferrer">
+            <img class="animate__animated animate__pulse animate__infinite" src="/icons/wsp_original.png" alt="Icono de Whatsapp">
+        </a>
+    </div>
+
+    <script src="/js/nav.js"></script>
+</body>
+</html>

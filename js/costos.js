@@ -19,7 +19,7 @@ function verDetalle(elementoTexto) {
     if (elementoTexto.textContent == "NATACIÓN") {
         elementoTexto.textContent = 'Ver Detalles';
     } else {
-        elementoTexto.textContent = 'Próximamente';
+        elementoTexto.textContent = 'Ver Detalles';
     }
 }
 

@@ -20,7 +20,7 @@ close_modal_nat.addEventListener('click', ()=>{
     body.classList.remove('overflow-hidden')
 });
 
-/* button_gal_tea.addEventListener('click', ()=>{
+button_gal_tea.addEventListener('click', ()=>{
     modal_teatro.classList.remove('hidden');
     
     body.classList.add('overflow-hidden');
@@ -40,4 +40,4 @@ button_gal_bal.addEventListener('click', ()=>{
 close_modal_bal.addEventListener('click', ()=>{
     modal_ballet.classList.add('hidden');
     body.classList.remove('overflow-hidden')
-}); */
+});
